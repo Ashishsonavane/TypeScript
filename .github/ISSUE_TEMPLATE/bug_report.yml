@@ -24,6 +24,7 @@ body:
   - type: textarea
     id: version_info
     attributes:
+    
       label: '🕗 Version & Regression Information'
       description: |
         When did you start seeing this bug occur?
