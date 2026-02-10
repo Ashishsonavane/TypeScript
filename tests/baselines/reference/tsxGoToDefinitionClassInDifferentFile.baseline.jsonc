@@ -11,7 +11,7 @@
    {
     "kind": "class",
     "name": "C",
-    "containerName": "\"./C\"",
+    "containerName": "\"/tests/cases/fourslash/C\"",
     "isLocal": false,
     "isAmbient": false,
     "unverified": false

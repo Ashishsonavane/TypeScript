@@ -12,7 +12,7 @@
    {
     "kind": "const",
     "name": "Component",
-    "containerName": "\"./goToDefinitionPropertyAssignment\"",
+    "containerName": "\"/tests/cases/fourslash/goToDefinitionPropertyAssignment\"",
     "isLocal": false,
     "isAmbient": false,
     "unverified": false,

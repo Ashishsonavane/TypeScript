@@ -235,7 +235,7 @@
    {
     "kind": "function",
     "name": "f",
-    "containerName": "\"./a\"",
+    "containerName": "\"/tests/cases/fourslash/a\"",
     "isLocal": false,
     "isAmbient": false,
     "unverified": false

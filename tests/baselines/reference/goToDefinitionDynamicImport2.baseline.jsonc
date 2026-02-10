@@ -11,7 +11,7 @@
    {
     "kind": "function",
     "name": "bar",
-    "containerName": "\"./foo\"",
+    "containerName": "\"/tests/cases/fourslash/foo\"",
     "isLocal": false,
     "isAmbient": false,
     "unverified": false,

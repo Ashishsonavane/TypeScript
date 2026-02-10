@@ -12,14 +12,14 @@ declare module "express" {
 >          : ^^^^^^^^^^^^^^^^^^^^^^^^
 
     function e(): e.Express;
->e : typeof import("express")
->  : ^^^^^^^^^^^^^^^^^^^^^^^^
+>e : typeof import("express.d.ts")
+>  : ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 >e : any
 >  : ^^^
 
     namespace e {
->e : typeof import("express")
->  : ^^^^^^^^^^^^^^^^^^^^^^^^
+>e : typeof import("express.d.ts")
+>  : ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
         interface IRoute {
             all(...handler: RequestHandler[]): IRoute;
@@ -134,8 +134,8 @@ declare module "express" {
     }
 
     export = e;
->e : typeof import("express")
->  : ^^^^^^^^^^^^^^^^^^^^^^^^
+>e : typeof import("express.d.ts")
+>  : ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 }
 
 === augmentation.ts ===

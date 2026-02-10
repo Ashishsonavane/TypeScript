@@ -14,8 +14,8 @@ Row();
 === ./a.d.ts ===
 import '.'
 declare module '.' {
->'.' : typeof import(".")
->    : ^^^^^^^^^^^^^^^^^^
+>'.' : typeof import("index")
+>    : ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   const Row: () => void;
 >Row : () => void
