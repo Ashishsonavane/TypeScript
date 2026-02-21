@@ -39,6 +39,7 @@
         "!**/.gitattributes"
     ],
     "devDependencies": {
+        "@codspeed/vitest-plugin": "^5.2.0",
         "@dprint/formatter": "^0.4.1",
         "@dprint/typescript": "0.93.0",
         "@esfx/canceltoken": "^1.0.0",
@@ -82,6 +83,7 @@
         "tslib": "^2.7.0",
         "typescript": "^5.6.2",
         "typescript-eslint": "^8.8.0",
+        "vitest": "^4.0.18",
         "which": "^3.0.1"
     },
     "overrides": {
