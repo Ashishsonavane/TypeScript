@@ -82,10 +82,9 @@
         "tslib": "^2.7.0",
         "typescript": "^5.6.2",
         "typescript-eslint": "^8.8.0",
-        "which": "^3.0.1"
-    },
-    "overrides": {
-        "typescript@*": "$typescript"
+        "which": "^3.0.1",
+        "@codspeed/vitest-plugin": "^5.2.0",
+        "vitest": "^4.0.18"
     },
     "scripts": {
         "test": "hereby runtests-parallel --light=false",
@@ -115,5 +114,8 @@
     "volta": {
         "node": "20.1.0",
         "npm": "8.19.4"
+    },
+    "overrides": {
+        "typescript@*": "$typescript"
     }
 }
